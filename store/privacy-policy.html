@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>XHR Capture Privacy Policy</title>
+<style>
+  :root { --bg: #ffffff; --fg: #1d2733; --muted: #5b6878; --rule: #dde3ea; color-scheme: light dark; }
+  @media (prefers-color-scheme: dark) { :root { --bg: #141b24; --fg: #e3e9ef; --muted: #9aa7b5; --rule: #2a3542; } }
+  body { margin: 0; background: var(--bg); color: var(--fg); font: 16px/1.6 -apple-system, "Segoe UI", sans-serif; }
+  main { max-width: 640px; margin: 0 auto; padding: 48px 20px 64px; }
+  h1 { font-size: 28px; margin: 0 0 4px; }
+  .date { color: var(--muted); margin: 0 0 32px; }
+  h2 { font-size: 18px; margin: 32px 0 8px; padding-top: 16px; border-top: 1px solid var(--rule); }
+</style>
+</head>
+<body>
+<main>
+  <h1>XHR Capture Privacy Policy</h1>
+  <p class="date">Last updated 15 October 2026</p>
+
+  <p>XHR Capture is a Chrome extension that adds a tab to Chrome DevTools. The tab lists the XHR and fetch requests made by the page you are inspecting.</p>
+
+  <h2>What the extension reads</h2>
+  <p>While DevTools is open, the extension reads the network log that Chrome DevTools already records. That log includes request URLs, headers, payloads and responses. The extension asks for no permissions and adds no code to the pages you visit.</p>
+
+  <h2>Where the data goes</h2>
+  <p>Nowhere. Captured requests are kept in memory inside the DevTools tab and are cleared when you close DevTools, clear the list, or load a new page with Preserve Log off. The extension makes no network requests of its own and has no server, analytics or tracking.</p>
+
+  <h2>Exports</h2>
+  <p>When you click an export button, the extension saves a JSON, CSV or Postman file to your computer. The file stays on your computer. Exports can include cookies and authorization headers from the captured requests, so treat them as sensitive.</p>
+
+  <h2>Sharing and selling</h2>
+  <p>We do not collect, store, sell or share any personal data.</p>
+
+  <h2>Changes</h2>
+  <p>If this policy changes, the new version will be posted on this page with a new date.</p>
+
+  <h2>Contact</h2>
+  <p>Questions or problems: open an issue at <a href="https://github.com/harshahota/xhr-capture/issues">github.com/harshahota/xhr-capture/issues</a>.</p>
+</main>
+</body>
+</html>

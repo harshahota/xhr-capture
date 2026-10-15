@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  html, body { width: 440px; height: 280px; overflow: hidden; }
+  body {
+    font-family: -apple-system, "Helvetica Neue", sans-serif;
+    background: radial-gradient(circle at 20% 30%, #263a52 0%, #16202d 70%);
+    color: #e6edf3; display: flex; flex-direction: column; justify-content: center; padding: 0 34px;
+  }
+  .top { display: flex; align-items: center; gap: 18px; }
+  img { width: 84px; height: 84px; }
+  h1 { font-size: 34px; font-weight: 700; letter-spacing: -.5px; }
+  h1 span { color: #4fc1b0; }
+  p { margin-top: 18px; font-size: 16px; line-height: 1.45; color: #b6c2cf; }
+  .tags { margin-top: 16px; display: flex; gap: 8px; }
+  .tags b { font: 600 11px ui-monospace, Menlo, monospace; padding: 4px 8px; border-radius: 4px; background: #2a3a4f; color: #f0a030; }
+</style>
+</head>
+<body>
+  <div class="top">
+    <img src="../../icons/icon128.png" alt="" />
+    <h1><span>XHR</span> Capture</h1>
+  </div>
+  <p>Every XHR and fetch call, with payloads, responses and headers, in one DevTools tab.</p>
+  <div class="tags"><b>JSON</b><b>CSV</b><b>Postman</b></div>
+</body>
+</html>
